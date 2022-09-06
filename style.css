@@ -34,7 +34,7 @@ label, span{
 .question {
     display: flex;
     flex-direction: column; 
-    background-color: 	#d8f5d1;
+    background-color: 	#C0EDA6;
     opacity: .9; 
     margin-top: 10px;
     border-radius: 10px;
@@ -60,7 +60,7 @@ span {
     color: #fff;
     font-weight: bold;
     font-size: 20px;
-    background-color: #000000;
+    background-color: #212121;
     padding: 10px;
     border: none;
     border-radius: 10px;
@@ -68,6 +68,10 @@ span {
     font-family: 'Kanit', sans-serif;
 }
 
+#btn:hover{
+   background-color: #fff;
+    color: #212121;
+}
 p {
     padding: 7px 0 0 10px;
     font-family: 'Kanit', sans-serif;
@@ -143,4 +147,9 @@ text-align: center;
     border-radius: 0px;
   
 }
+  .question {
+    
+    background-color: 	#F9F9C5;
+   
+   
 }
