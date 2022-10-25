@@ -1,74 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Futbol quiz</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-
-<link rel="icon" href="data:,">
-</head>
-<body>
-    <section id="header">
-    <h1>¿Cuánto sabes del fútbol español?</h1>
-</section>
-
-    <form>
-        <div class="question">
+<html lang="es">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Futbol quiz</title>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="style.css">
+      <link rel="icon" href="data:,">
+   </head>
+   <body>
+      <section id="header">
+         <h1>¿Cuánto sabes del fútbol español?</h1>
+      </section>
+      <form>
+         <div class="question">
             <label>¿Qué clubes crees que han jugado todas las ediciones de La Liga?</label>
-            
-           <span><input type="radio" name="question1"  >FC Barcelona, Real Madrid, Atlético de Madrid</span>
+            <span><input type="radio" name="question1"  >FC Barcelona, Real Madrid, Atlético de Madrid</span>
             <span><input type="radio" name="question1"   >FC Barcelona, Real Madrid, Sevilla FC</span>
             <span><input type="radio" name="question1" id="answer1"   class="correct">FC Barcelona, Real Madrid, Atletic de Bilbao</span>
-            
             <p id="show1"></p>
-        </div>
-        
-        <div class="question">
+         </div>
+         <div class="question">
             <label>¿En qué equipos españoles jugó el histórico Maradona?</label>
             <span><input type="radio" name="question3" id="answer3">FC Barcelona y Sevilla</span>
             <span><input type="radio" name="question3">Sevilla y Real Madrid</span>
             <span><input type="radio" name="question3">FC Barcelona y Real Madrid</span>
-            
             <p id="show3"></p>
-        </div>
-      <div class="question">
+         </div>
+         <div class="question">
             <label>En España, los clubes sólo se quedan con el trofeo de Liga en propiedad si completan uno de estos dos ciclos: 3 campeonatos consecutivos o 5 victorias de forma alternativa antes que cualquier rival. ¿Sabes qué club tiene más trofeos en propiedad y cuántos?</label>
             <span><input type="radio" name="question2"id="answer2">FC Barcelona y Real Madrid 5</span>
             <span><input type="radio" name="question2" > Real Madrid 5</span>
             <span><input type="radio" name="question2">FC Barcelona 5</span>
-            
             <p id="show2"></p>
-        </div>
-        <div class="question">
+         </div>
+         <div class="question">
             <label>¿Quién marcó el gol que le dio el Mundial a España?</label>
             <span><input type="radio" name="question4"id="answer4"> Adrés Iniesta</span>
             <span><input type="radio" name="question4">Fernando Torres</span>
             <span><input type="radio" name="question4">David Villa</span>
-            
             <p id="show4"></p>
-        </div>
-        <div class="question">
+         </div>
+         <div class="question">
             <label>En España hay más fútbol además de La Liga, ¿sabes cómo se llama popularmente al torneo español de la Copa del Rey?</label>
             <span><input type="radio" name="question5">La Corona</span>
             <span><input type="radio" name="question5">Torneo del caos</span>
             <span><input type="radio" name="question5" id="answer5">Torneo del K.O.</span>
-         
             <p id="show5"></p>
-        </div>
-        <div class="question">
+         </div>
+         <div class="question">
             <label>Los equipos de España y sus aficiones suelen tener un apodo. Sin embargo, ¿sabes cuál de los siguientes no es sobrenombre de ninguno?</label>
             <span><input type="radio" name="question6" id="answer6">Paelleros</span>
             <span><input type="radio" name="question6" >Periquitos</span>
             <span><input type="radio" name="question6">Leones</span>
-            
             <p id="show6"></p>
-        </div>
-        <div class="question">
+         </div>
+         <div class="question">
             <label>“Pichichi” es el jugador que más goles marca en una temporada en La Liga. ¿Imaginas cuál es el futbolista que más goles ha marcado en la historia de la Liga desde 1928?</label>
             <span><input type="radio" name="question7" id="answer7">Messi</span>
             <span><input type="radio" name="question7">Cristiano Ronaldo</span>
@@ -77,63 +67,48 @@
             <span><input type="radio" name="question7">Raúl</span>
             <span><input type="radio" name="question7">Zarra</span>
             <span><input type="radio" name="question7">Pichichi</span>
-            
             <p id="show7"></p>
-        </div>
-        <div class="question">
+         </div>
+         <div class="question">
             <label>¿Conoces los estadios de España? ¿Cuál crees que tiene más aforo?</label>
             <span><input type="radio" name="question8">El Santiago Bernabéu, Estadio del Real Madrid</span>
             <span><input type="radio" name="question8">San Mamés, Estadio del Athletic de Bilbao</span>
             <span><input type="radio" name="question8" id="answer8">El Camp Nou, Estadio del FC Barcelona</span>
-           
             <p id="show8"></p>
-        </div>
-        <div class="question">
+         </div>
+         <div class="question">
             <label>¿Qué dos equipos de la misma ciudad de España se han enfrentado en la final de la Champions League?</label>
             <span><input type="radio" name="question9"id="answer9">Real Madrid y Atlético de Madrid</span>
             <span><input type="radio" name="question9" >FC Barcelona y Espanyol</span>
             <span><input type="radio" name="question9">Sevilla y Real Betis</span>
-            
             <p id="show9"></p>
-        </div>
-        <div class="question">
+         </div>
+         <div class="question">
             <label>¿Cuántos equipos diferentes han conseguido ganar un campeonato de Liga de primera división?</label>
             <span><input type="radio" name="question10">15</span>
             <span><input type="radio" name="question10">4</span>
             <span><input type="radio" name="question10"id="answer10">9</span>
-            
             <p id="show10"></p>
-        </div>
-        <div class="question">
+         </div>
+         <div class="question">
             <label>¿Cuántos equipos compiten en la primera división española?</label>
             <span><input type="radio" name="question11">18</span>
             <span><input type="radio" name="question11" id="answer11">20</span>
             <span><input type="radio" name="question11">22</span>
-       
             <p id="show11"></p>
-        </div>
-        <div class="question">
+         </div>
+         <div class="question">
             <label>¿Quién tiene el récord de puntos conseguidos en una sola Liga?</label>
             <span><input type="radio" name="question12">Real Madrid</span>
             <span><input type="radio" name="question12">FC Barcelona</span>
             <span><input type="radio" name="question12" id="answer12">Ambos</span>
             <p id="show12"></p>
-        </div>
-        
-     <br>
-
-        <input type="submit" value="Ver el resultado" id="btn" />
-       
-        
-
-        <p id="show"></p>
-    </form>
-
-
-   
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/gsap.min.js"></script>
-
-    <script src="script.js"></script>
-</body>
+         </div>
+         <br>
+         <input type="submit" value="Ver el resultado" id="btn" />
+         <p id="show"></p>
+      </form>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/gsap.min.js"></script>
+      <script src="script.js"></script>
+   </body>
 </html>
-

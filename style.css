@@ -24,7 +24,7 @@ h1 {
     margin-left: 50px;
     font-size: 60px;
     font-family: 'Kanit', sans-serif;
-  text-shadow: 3px 1px grey;
+    text-shadow: 3px 1px grey;
 }
 
 label, span{
@@ -45,7 +45,7 @@ label {
     color: #000000;
     padding: 10px;
     font-size: 20px;
-  text-shadow: 1px 1px grey;
+    text-shadow: 1px 1px grey;
     font-family: 'Kanit', sans-serif;
 }
 
@@ -72,6 +72,7 @@ span {
    background-color: #fff;
     color: #212121;
 }
+
 p {
     padding: 7px 0 0 10px;
     font-family: 'Kanit', sans-serif;
@@ -86,13 +87,12 @@ p {
 }
 
 section {
-     background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     background-position: center;
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column;   
 }
 
 
@@ -109,47 +109,36 @@ section {
 }
 
 #show1, #show2, #show3, #show4, #show5, #show6, #show7, #show8, #show9, #show10, #show11, #show12{
-text-align: center;
+    text-align: center;
 }
-
 
 @media all and (max-width: 800px) {
-    h1{
-        font-size:45px;
+     h1{
+         font-size:45px;
     }
-   
-    
-    #p {
-        font-size: 20px;
-        margin-top: 100px;
+     #p {
+         font-size: 20px;
+         margin-top: 100px;
     }
 }
-
-@media all and (max-width: 500px) {
-    h1{
-        font-size: 35px;
-        color:#fff;
-        text-shadow: 3px 1px grey;
-        margin-left: 5px; 
-      text-align:center;
-      font-weight:bolder;
+ @media all and (max-width: 500px) {
+     h1{
+         font-size: 35px;
+         color:#fff;
+         text-shadow: 3px 1px grey;
+         margin-left: 5px;
+         text-align:center;
+         font-weight:bolder;
     }
-
-       
-    #p {
-        font-size: 20px;
-        margin-top: 100px;
+     #p {
+         font-size: 20px;
+         margin-top: 100px;
     }
-  #btn {
+     #btn {
+         padding: 30px;
+         border-radius: 0px;
+    }
+     .question {
+         background-color: #F9F9C5;
+    }
     
-    padding: 30px;
-    
-    border-radius: 0px;
-  
-}
-  .question {
-    
-    background-color: 	#F9F9C5;
-   
-   
-}
